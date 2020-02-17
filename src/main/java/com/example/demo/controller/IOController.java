@@ -1,5 +1,6 @@
 package com.example.demo.controller;
 
+import com.example.demo.entity.AjaxResponse;
 import com.example.demo.iocdemo.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.ApplicationContext;
@@ -13,9 +14,9 @@ public class IOController {
     private ApplicationContext applicationContext;
 
     @GetMapping("/getUser")
-    public User getUser() {
+    public AjaxResponse getUser() {
         //从IOC容器中获取指定名称的对象
         User user = (User) applicationContext.getBean("User1");
-        return user;
+        return AjaxResponse.success(user);
     }
 }
