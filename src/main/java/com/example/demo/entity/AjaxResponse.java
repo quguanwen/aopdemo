@@ -2,6 +2,8 @@ package com.example.demo.entity;
 
 import com.example.demo.configuration.exception.CustomException;
 import com.example.demo.configuration.exception.CustomExceptionType;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Data;
 
 @Data

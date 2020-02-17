@@ -2,6 +2,9 @@ package com.example.demo.configuration.exception;
 
 import com.example.demo.entity.AjaxResponse;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.validation.BindException;
+import org.springframework.validation.FieldError;
+import org.springframework.web.bind.MethodArgumentNotValidException;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.ResponseBody;
@@ -34,4 +37,21 @@ public class WebExceptionHandler {
         log.error(e.getMessage());
         return AjaxResponse.error(new CustomException(CustomExceptionType.OTHER_ERROR, "未知异常"));
     }
+
+    //TODO 捕获校验器的异常
+    @ExceptionHandler(MethodArgumentNotValidException.class)
+    @ResponseBody
+    public AjaxResponse handleBindException(MethodArgumentNotValidException e) {
+        FieldError fieldError = e.getBindingResult().getFieldError();
+        return AjaxResponse.error(new CustomException(CustomExceptionType.USER_INPUT_ERROR, fieldError.getDefaultMessage()));
+    }
+
+    //TODO 捕获校验器的异常
+    @ExceptionHandler(BindException.class)
+    @ResponseBody
+    public AjaxResponse handleBindException(BindException ex) {
+        FieldError fieldError = ex.getBindingResult().getFieldError();
+        return AjaxResponse.error(new CustomException(CustomExceptionType.USER_INPUT_ERROR,fieldError.getDefaultMessage()));
+    }
+
 }
