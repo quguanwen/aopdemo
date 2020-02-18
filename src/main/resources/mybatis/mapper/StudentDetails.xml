@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.demo.mapper.StudentDetailsMapper">
+    <resultMap id="StudentDetails" type="com.example.demo.entity.Student">
+        <id column="s_id" jdbcType="INTEGER" property="sId"/>
+        <result column="s_name" jdbcType="VARCHAR" property="sName"/>
+        <result column="s_age" jdbcType="INTEGER" property="sAge"/>
+        <result column="s_sex" jdbcType="VARCHAR" property="sSex"/>
+        <!--一对多-->
+        <collection property="listScore" ofType="com.example.demo.entity.Score">
+            <result column="s_id" jdbcType="INTEGER" property="sId"/>
+            <result column="c_id" jdbcType="INTEGER" property="cId"/>
+            <result column="score" jdbcType="INTEGER" property="score"/>
+            <!--一对一-->
+            <association property="course" javaType="com.example.demo.entity.Course">
+                <id column="c_id" jdbcType="INTEGER" property="cId"/>
+                <result column="c_name" jdbcType="VARCHAR" property="cName"/>
+                <result column="t_id" jdbcType="INTEGER" property="tId"/>
+                <!--一对一-->
+                <association property="teacher" javaType="com.example.demo.entity.Teacher">
+                    <id column="t_id" jdbcType="INTEGER" property="tId"/>
+                    <result column="t_name" jdbcType="VARCHAR" property="tName"/>
+                </association>
+            </association>
+        </collection>
+    </resultMap>
+
+    <select id="selectStudentDetailsAllFilter" resultMap="StudentDetails"
+            parameterType="com.example.demo.entity.FilterCondition">
+        select student.s_id,
+        student.s_name,
+        student.s_age,
+        student.s_sex,
+        c.c_id,
+        c.c_name,
+        t.t_id,
+        t.t_name,
+        s.score
+        from student
+        left join score s on student.s_id = s.s_id
+        left join course c on s.c_id = c.c_id
+        left join teacher t on c.t_id = t.t_id
+        <where>
+            <if test='FC.courseName != null'>
+                c.c_name = #{FC.courseName}
+            </if>
+            <if test='FC.teacherName != null'>
+                and t.t_name = #{FC.teacherName}
+            </if>
+            and s.score between #{FC.scoreMin} and #{FC.scoreMax}
+        </where>
+    </select>
+
+    <select id="selectStudentDetailsAll" resultMap="StudentDetails">
+        select student.s_id,
+        student.s_name,
+        student.s_age,
+        student.s_sex,
+        c.c_id,
+        c.c_name,
+        t.t_id,
+        t.t_name,
+        s.score
+        from student
+        left join score s on student.s_id = s.s_id
+        left join course c on s.c_id = c.c_id
+        left join teacher t on c.t_id = t.t_id
+    </select>
+
+</mapper>

@@ -19,4 +19,6 @@ public class IOController {
         User user = (User) applicationContext.getBean("User1");
         return AjaxResponse.success(user);
     }
+
+
 }
