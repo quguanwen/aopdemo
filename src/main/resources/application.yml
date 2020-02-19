@@ -2,16 +2,18 @@ server:
   port: 8888
 
 
-#mapper文件位置,mybatis配置文件位置 ,驼峰与数据库字段的自动映射
+
 mybatis:
   mapper-locations: classpath:mybatis/mapper/*.xml
   configuration:
     mapUnderscoreToCamelCase: true
 
-#设置某包下日志级别降低打印
+
 logging:
   level:
     com.example.demo: debug
+  config: classpath:log4j2-config.xml
+
 
 
 spring:

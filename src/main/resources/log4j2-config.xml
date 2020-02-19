@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <Appenders>
+        <Console name="CONSOLE" target="SYSTEM_OUT">
+            <PatternLayout charset="UTF-8"
+                           pattern="%d{yyyy-MM-dd HH:mm:ss.SSS Z}\t[%level]\t%class\t%line\t%thread\t%msg%n"/>
+        </Console>
+        <!--拆分文件名称 filePattern,其中会按时间进行分割
+        %d{yyyy-MM-dd} 按天分割
+        %d{yyyy-MM-dd-HH-mm} 每2分钟分割一次日志
+        -->
+        <RollingFile name="runtimeFile" fileName="./logs/boot-launch.log"
+                     filePattern="./logs/springboot-demo-%d{yyyy-MM-dd}.log"
+                     append="true">
+            <!--日志打印格式-->
+            <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss.SSS Z}\t%level\t%class\t%line\t%thread\t%msg%n"/>
+            <Policies>
+                <TimeBasedTriggeringPolicy/>
+            </Policies>
+            <!-- 此行以下为自动清理日志的配置 -->
+            <DefaultRolloverStrategy>
+                <Delete basePath="./logs">
+                    <!-- glob 项为需要自动清理日志的pattern -->
+                    <IfFileName glob="*.log"/>
+                    <!-- 30d 表示自动清理掉30天以前的日志文件 -->
+                    <IfLastModified age="30d"/>
+                </Delete>
+            </DefaultRolloverStrategy>
+            <!-- 此行以上为自动清理日志的配置 -->
+        </RollingFile>
+
+        <RollingFile name="accessLog" fileName="./logs/access.log" filePattern="./logs/boot-access-%d{yyyy-MM-dd}.log"
+                     append="true">
+            <!--日志打印格式-->
+            <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss.SSS Z}\t%level\t%class\t%line\t%thread\t%msg%n"/>
+            <Policies>
+                <TimeBasedTriggeringPolicy/>
+            </Policies>
+            <!-- 此行以下为自动清理日志的配置 -->
+            <DefaultRolloverStrategy>
+                <Delete basePath="./logs">
+                    <!-- glob 项为需要自动清理日志的pattern -->
+                    <IfFileName glob="*.log"/>
+                    <!-- 30d 表示自动清理掉30天以前的日志文件 -->
+                    <IfLastModified age="30d"/>
+                </Delete>
+            </DefaultRolloverStrategy>
+            <!-- 此行以上为自动清理日志的配置 -->
+        </RollingFile>
+
+    </Appenders>
+
+    <!--log4j2默认就是异步写入文件-->
+    <Loggers>
+        <!--特指一个文件的日志输出方式-->
+        <logger name="com.example.demo.listenerfilterintercept.AccessLogInterceptor" level="info" additivity="false">
+            <AppenderRef ref="accessLog"/>
+        </logger>
+        <root level="info">
+            <AppenderRef ref="CONSOLE"/>
+            <AppenderRef ref="runtimeFile"/>
+        </root>
+    </Loggers>
+</configuration>

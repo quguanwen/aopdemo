@@ -1,0 +1,52 @@
+2020-02-19 20:18:37.264 +0800	INFO	org.springframework.boot.StartupInfoLogger	50	main	Starting AopdemoApplication on DESKTOP-EPLMR17 with PID 9280 (started by «¸π⁄Œƒ in C:\Users\«¸π⁄Œƒ\IdeaProjects\format\aopdemo)
+2020-02-19 20:18:37.271 +0800	DEBUG	org.springframework.boot.StartupInfoLogger	53	main	Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2020-02-19 20:18:37.272 +0800	INFO	org.springframework.boot.SpringApplication	675	main	No active profile set, falling back to default profiles: default
+2020-02-19 20:18:38.561 +0800	INFO	org.springframework.boot.web.embedded.tomcat.TomcatWebServer	90	main	Tomcat initialized with port(s): 8888 (http)
+2020-02-19 20:18:38.577 +0800	INFO	org.apache.juli.logging.DirectJDKLog	173	main	Initializing ProtocolHandler ["http-nio-8888"]
+2020-02-19 20:18:38.586 +0800	INFO	org.apache.juli.logging.DirectJDKLog	173	main	Starting service [Tomcat]
+2020-02-19 20:18:38.587 +0800	INFO	org.apache.juli.logging.DirectJDKLog	173	main	Starting Servlet engine: [Apache Tomcat/9.0.17]
+2020-02-19 20:18:38.697 +0800	INFO	org.apache.juli.logging.DirectJDKLog	173	main	Initializing Spring embedded WebApplicationContext
+2020-02-19 20:18:38.697 +0800	INFO	org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext	296	main	Root WebApplicationContext: initialization completed in 1393 ms
+2020-02-19 20:18:39.292 +0800	INFO	org.springframework.scheduling.concurrent.ExecutorConfigurationSupport	171	main	Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-19 20:18:39.567 +0800	INFO	org.apache.juli.logging.DirectJDKLog	173	main	Starting ProtocolHandler ["http-nio-8888"]
+2020-02-19 20:18:39.591 +0800	INFO	org.springframework.boot.web.embedded.tomcat.TomcatWebServer	204	main	Tomcat started on port(s): 8888 (http) with context path ''
+2020-02-19 20:18:39.595 +0800	INFO	org.springframework.boot.StartupInfoLogger	59	main	Started AopdemoApplication in 3.025 seconds (JVM running for 4.417)
+2020-02-19 20:19:03.700 +0800	INFO	com.example.demo.listenerfilterintercept.CustomLister	27	http-nio-8888-exec-1	requestº∂±º‡Ã˝∆˜,∑√Œ ¥Œ ˝+1,µ±«∞∑√Œ ¡ø:1
+2020-02-19 20:19:03.707 +0800	INFO	org.apache.juli.logging.DirectJDKLog	173	http-nio-8888-exec-1	Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-02-19 20:19:03.707 +0800	INFO	org.springframework.web.servlet.FrameworkServlet	524	http-nio-8888-exec-1	Initializing Servlet 'dispatcherServlet'
+2020-02-19 20:19:03.719 +0800	INFO	org.springframework.web.servlet.FrameworkServlet	546	http-nio-8888-exec-1	Completed initialization in 11 ms
+2020-02-19 20:19:03.731 +0800	INFO	com.example.demo.listenerfilterintercept.CustomIntercept	19	http-nio-8888-exec-1	PostmanRuntime/7.22.0
+2020-02-19 20:19:03.741 +0800	INFO	com.example.demo.eventlisteners.Listener	13	http-nio-8888-exec-1	com.example.demo.eventlisteners.Listenerº‡Ã˝µΩ ¬º˛‘¥£∫≤‚ ‘” º˛∑¢ÀÕ.
+2020-02-19 20:19:03.803 +0800	INFO	com.example.demo.listenerfilterintercept.CustomIntercept	28	http-nio-8888-exec-1	??
+2020-02-19 20:19:03.804 +0800	INFO	com.example.demo.listenerfilterintercept.CustomIntercept	32	http-nio-8888-exec-1	???
+2020-02-19 20:19:03.806 +0800	INFO	com.example.demo.listenerfilterintercept.CustomLister	18	http-nio-8888-exec-1	requestº∂±º‡Ã˝∆˜£∫œ˙ªŸ
+2020-02-19 20:21:42.339 +0800	INFO	com.example.demo.listenerfilterintercept.CustomLister	27	http-nio-8888-exec-3	requestº∂±º‡Ã˝∆˜,∑√Œ ¥Œ ˝+1,µ±«∞∑√Œ ¡ø:2
+2020-02-19 20:21:42.342 +0800	INFO	com.example.demo.listenerfilterintercept.CustomIntercept	19	http-nio-8888-exec-3	PostmanRuntime/7.22.0
+2020-02-19 20:21:42.343 +0800	INFO	com.example.demo.eventlisteners.Listener	13	http-nio-8888-exec-3	com.example.demo.eventlisteners.Listenerº‡Ã˝µΩ ¬º˛‘¥£∫≤‚ ‘” º˛∑¢ÀÕ.
+2020-02-19 20:21:42.345 +0800	INFO	com.example.demo.listenerfilterintercept.CustomIntercept	28	http-nio-8888-exec-3	??
+2020-02-19 20:21:42.346 +0800	INFO	com.example.demo.listenerfilterintercept.CustomIntercept	32	http-nio-8888-exec-3	???
+2020-02-19 20:21:42.347 +0800	INFO	com.example.demo.listenerfilterintercept.CustomLister	18	http-nio-8888-exec-3	requestº∂±º‡Ã˝∆˜£∫œ˙ªŸ
+2020-02-19 20:22:51.026 +0800	INFO	org.springframework.scheduling.concurrent.ExecutorConfigurationSupport	208	Thread-2	Shutting down ExecutorService 'applicationTaskExecutor'
+2020-02-19 20:22:54.718 +0800	INFO	org.springframework.boot.StartupInfoLogger	50	main	Starting AopdemoApplication on DESKTOP-EPLMR17 with PID 252 (started by Â±àÂÜ†Êñá in C:\Users\Â±àÂÜ†Êñá\IdeaProjects\format\aopdemo)
+2020-02-19 20:22:54.724 +0800	DEBUG	org.springframework.boot.StartupInfoLogger	53	main	Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2020-02-19 20:22:54.725 +0800	INFO	org.springframework.boot.SpringApplication	675	main	No active profile set, falling back to default profiles: default
+2020-02-19 20:22:55.907 +0800	INFO	org.springframework.boot.web.embedded.tomcat.TomcatWebServer	90	main	Tomcat initialized with port(s): 8888 (http)
+2020-02-19 20:22:55.919 +0800	INFO	org.apache.juli.logging.DirectJDKLog	173	main	Initializing ProtocolHandler ["http-nio-8888"]
+2020-02-19 20:22:55.928 +0800	INFO	org.apache.juli.logging.DirectJDKLog	173	main	Starting service [Tomcat]
+2020-02-19 20:22:55.929 +0800	INFO	org.apache.juli.logging.DirectJDKLog	173	main	Starting Servlet engine: [Apache Tomcat/9.0.17]
+2020-02-19 20:22:56.027 +0800	INFO	org.apache.juli.logging.DirectJDKLog	173	main	Initializing Spring embedded WebApplicationContext
+2020-02-19 20:22:56.027 +0800	INFO	org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext	296	main	Root WebApplicationContext: initialization completed in 1269 ms
+2020-02-19 20:22:56.571 +0800	INFO	org.springframework.scheduling.concurrent.ExecutorConfigurationSupport	171	main	Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-19 20:22:56.859 +0800	INFO	org.apache.juli.logging.DirectJDKLog	173	main	Starting ProtocolHandler ["http-nio-8888"]
+2020-02-19 20:22:56.885 +0800	INFO	org.springframework.boot.web.embedded.tomcat.TomcatWebServer	204	main	Tomcat started on port(s): 8888 (http) with context path ''
+2020-02-19 20:22:56.888 +0800	INFO	org.springframework.boot.StartupInfoLogger	59	main	Started AopdemoApplication in 2.816 seconds (JVM running for 4.165)
+2020-02-19 20:23:04.332 +0800	INFO	com.example.demo.listenerfilterintercept.CustomLister	27	http-nio-8888-exec-1	requestÁ∫ßÂà´ÁõëÂê¨Âô®,ËÆøÈóÆÊ¨°Êï∞+1,ÂΩìÂâçËÆøÈóÆÈáè:1
+2020-02-19 20:23:04.339 +0800	INFO	org.apache.juli.logging.DirectJDKLog	173	http-nio-8888-exec-1	Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-02-19 20:23:04.339 +0800	INFO	org.springframework.web.servlet.FrameworkServlet	524	http-nio-8888-exec-1	Initializing Servlet 'dispatcherServlet'
+2020-02-19 20:23:04.351 +0800	INFO	org.springframework.web.servlet.FrameworkServlet	546	http-nio-8888-exec-1	Completed initialization in 12 ms
+2020-02-19 20:23:04.367 +0800	INFO	com.example.demo.listenerfilterintercept.CustomIntercept	19	http-nio-8888-exec-1	PostmanRuntime/7.22.0
+2020-02-19 20:23:04.375 +0800	INFO	com.example.demo.eventlisteners.Listener	13	http-nio-8888-exec-1	com.example.demo.eventlisteners.ListenerÁõëÂê¨Âà∞‰∫ã‰ª∂Ê∫êÔºöÊµãËØïÈÇÆ‰ª∂ÂèëÈÄÅ.
+2020-02-19 20:23:04.435 +0800	INFO	com.example.demo.listenerfilterintercept.CustomIntercept	28	http-nio-8888-exec-1	??
+2020-02-19 20:23:04.436 +0800	INFO	com.example.demo.listenerfilterintercept.CustomIntercept	32	http-nio-8888-exec-1	???
+2020-02-19 20:23:04.438 +0800	INFO	com.example.demo.listenerfilterintercept.CustomLister	18	http-nio-8888-exec-1	requestÁ∫ßÂà´ÁõëÂê¨Âô®ÔºöÈîÄÊØÅ
+2020-02-19 20:23:15.849 +0800	INFO	org.springframework.scheduling.concurrent.ExecutorConfigurationSupport	208	Thread-2	Shutting down ExecutorService 'applicationTaskExecutor'

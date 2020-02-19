@@ -1,5 +1,6 @@
 package com.example.demo.configuration;
 
+import com.example.demo.listenerfilterintercept.AccessLogInterceptor;
 import com.example.demo.listenerfilterintercept.CustomIntercept;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -15,12 +16,18 @@ public class MyWebMvcConfigurer implements WebMvcConfigurer {
     public void addInterceptors(InterceptorRegistry registry) {
         //TODO 对所有的请求路径都使用该拦截器拦截
         registry.addInterceptor(getHandlerInterceptor()).addPathPatterns("/**");
+        registry.addInterceptor(getHandlerInterceptor1()).addPathPatterns("/**");
     }
 
     //TODO 将自定义拦截器创建并注入ioc
     @Bean
-    public static HandlerInterceptor getHandlerInterceptor(){
+    public static HandlerInterceptor getHandlerInterceptor() {
         return new CustomIntercept();
     }
 
+    //TODO 统一日志访问记录
+    @Bean
+    public static HandlerInterceptor getHandlerInterceptor1() {
+        return new AccessLogInterceptor();
+    }
 }
