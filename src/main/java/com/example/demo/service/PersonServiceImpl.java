@@ -49,7 +49,7 @@ public class PersonServiceImpl implements PersonService {
     @Override
     public PageInfo<Student> selectStudentDetailsAll(int pageNum, int pageSize) {
         //TODO 分页
-        PageHelper.startPage(1, 2);
+        PageHelper.startPage(pageNum, pageSize);
         List<Student> list = studentDetailsMapper.selectStudentDetailsAll();
         PageInfo<Student> pageInfo = new PageInfo<Student>(list);
         return pageInfo;
