@@ -1,6 +1,6 @@
 package com.example.demo.configuration;
 
-import com.example.demo.ListenerFilterIntercept.CustomIntercept;
+import com.example.demo.listenerfilterintercept.CustomIntercept;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.HandlerInterceptor;

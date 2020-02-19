@@ -1,4 +1,4 @@
-package com.example.demo.ListenerFilterIntercept;
+package com.example.demo.listenerfilterintercept;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Component;
@@ -6,7 +6,6 @@ import org.springframework.stereotype.Component;
 import javax.servlet.annotation.WebListener;
 import javax.servlet.http.HttpSessionEvent;
 import javax.servlet.http.HttpSessionListener;
-import java.util.concurrent.atomic.AtomicInteger;
 
 @Component
 @WebListener
