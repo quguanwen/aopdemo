@@ -1,52 +1,84 @@
-2020-02-19 20:18:37.264 +0800	INFO	org.springframework.boot.StartupInfoLogger	50	main	Starting AopdemoApplication on DESKTOP-EPLMR17 with PID 9280 (started by ������ in C:\Users\������\IdeaProjects\format\aopdemo)
-2020-02-19 20:18:37.271 +0800	DEBUG	org.springframework.boot.StartupInfoLogger	53	main	Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
-2020-02-19 20:18:37.272 +0800	INFO	org.springframework.boot.SpringApplication	675	main	No active profile set, falling back to default profiles: default
-2020-02-19 20:18:38.561 +0800	INFO	org.springframework.boot.web.embedded.tomcat.TomcatWebServer	90	main	Tomcat initialized with port(s): 8888 (http)
-2020-02-19 20:18:38.577 +0800	INFO	org.apache.juli.logging.DirectJDKLog	173	main	Initializing ProtocolHandler ["http-nio-8888"]
-2020-02-19 20:18:38.586 +0800	INFO	org.apache.juli.logging.DirectJDKLog	173	main	Starting service [Tomcat]
-2020-02-19 20:18:38.587 +0800	INFO	org.apache.juli.logging.DirectJDKLog	173	main	Starting Servlet engine: [Apache Tomcat/9.0.17]
-2020-02-19 20:18:38.697 +0800	INFO	org.apache.juli.logging.DirectJDKLog	173	main	Initializing Spring embedded WebApplicationContext
-2020-02-19 20:18:38.697 +0800	INFO	org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext	296	main	Root WebApplicationContext: initialization completed in 1393 ms
-2020-02-19 20:18:39.292 +0800	INFO	org.springframework.scheduling.concurrent.ExecutorConfigurationSupport	171	main	Initializing ExecutorService 'applicationTaskExecutor'
-2020-02-19 20:18:39.567 +0800	INFO	org.apache.juli.logging.DirectJDKLog	173	main	Starting ProtocolHandler ["http-nio-8888"]
-2020-02-19 20:18:39.591 +0800	INFO	org.springframework.boot.web.embedded.tomcat.TomcatWebServer	204	main	Tomcat started on port(s): 8888 (http) with context path ''
-2020-02-19 20:18:39.595 +0800	INFO	org.springframework.boot.StartupInfoLogger	59	main	Started AopdemoApplication in 3.025 seconds (JVM running for 4.417)
-2020-02-19 20:19:03.700 +0800	INFO	com.example.demo.listenerfilterintercept.CustomLister	27	http-nio-8888-exec-1	request���������,���ʴ���+1,��ǰ������:1
-2020-02-19 20:19:03.707 +0800	INFO	org.apache.juli.logging.DirectJDKLog	173	http-nio-8888-exec-1	Initializing Spring DispatcherServlet 'dispatcherServlet'
-2020-02-19 20:19:03.707 +0800	INFO	org.springframework.web.servlet.FrameworkServlet	524	http-nio-8888-exec-1	Initializing Servlet 'dispatcherServlet'
-2020-02-19 20:19:03.719 +0800	INFO	org.springframework.web.servlet.FrameworkServlet	546	http-nio-8888-exec-1	Completed initialization in 11 ms
-2020-02-19 20:19:03.731 +0800	INFO	com.example.demo.listenerfilterintercept.CustomIntercept	19	http-nio-8888-exec-1	PostmanRuntime/7.22.0
-2020-02-19 20:19:03.741 +0800	INFO	com.example.demo.eventlisteners.Listener	13	http-nio-8888-exec-1	com.example.demo.eventlisteners.Listener�������¼�Դ�������ʼ�����.
-2020-02-19 20:19:03.803 +0800	INFO	com.example.demo.listenerfilterintercept.CustomIntercept	28	http-nio-8888-exec-1	??
-2020-02-19 20:19:03.804 +0800	INFO	com.example.demo.listenerfilterintercept.CustomIntercept	32	http-nio-8888-exec-1	???
-2020-02-19 20:19:03.806 +0800	INFO	com.example.demo.listenerfilterintercept.CustomLister	18	http-nio-8888-exec-1	request���������������
-2020-02-19 20:21:42.339 +0800	INFO	com.example.demo.listenerfilterintercept.CustomLister	27	http-nio-8888-exec-3	request���������,���ʴ���+1,��ǰ������:2
-2020-02-19 20:21:42.342 +0800	INFO	com.example.demo.listenerfilterintercept.CustomIntercept	19	http-nio-8888-exec-3	PostmanRuntime/7.22.0
-2020-02-19 20:21:42.343 +0800	INFO	com.example.demo.eventlisteners.Listener	13	http-nio-8888-exec-3	com.example.demo.eventlisteners.Listener�������¼�Դ�������ʼ�����.
-2020-02-19 20:21:42.345 +0800	INFO	com.example.demo.listenerfilterintercept.CustomIntercept	28	http-nio-8888-exec-3	??
-2020-02-19 20:21:42.346 +0800	INFO	com.example.demo.listenerfilterintercept.CustomIntercept	32	http-nio-8888-exec-3	???
-2020-02-19 20:21:42.347 +0800	INFO	com.example.demo.listenerfilterintercept.CustomLister	18	http-nio-8888-exec-3	request���������������
-2020-02-19 20:22:51.026 +0800	INFO	org.springframework.scheduling.concurrent.ExecutorConfigurationSupport	208	Thread-2	Shutting down ExecutorService 'applicationTaskExecutor'
-2020-02-19 20:22:54.718 +0800	INFO	org.springframework.boot.StartupInfoLogger	50	main	Starting AopdemoApplication on DESKTOP-EPLMR17 with PID 252 (started by 屈冠文 in C:\Users\屈冠文\IdeaProjects\format\aopdemo)
-2020-02-19 20:22:54.724 +0800	DEBUG	org.springframework.boot.StartupInfoLogger	53	main	Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
-2020-02-19 20:22:54.725 +0800	INFO	org.springframework.boot.SpringApplication	675	main	No active profile set, falling back to default profiles: default
-2020-02-19 20:22:55.907 +0800	INFO	org.springframework.boot.web.embedded.tomcat.TomcatWebServer	90	main	Tomcat initialized with port(s): 8888 (http)
-2020-02-19 20:22:55.919 +0800	INFO	org.apache.juli.logging.DirectJDKLog	173	main	Initializing ProtocolHandler ["http-nio-8888"]
-2020-02-19 20:22:55.928 +0800	INFO	org.apache.juli.logging.DirectJDKLog	173	main	Starting service [Tomcat]
-2020-02-19 20:22:55.929 +0800	INFO	org.apache.juli.logging.DirectJDKLog	173	main	Starting Servlet engine: [Apache Tomcat/9.0.17]
-2020-02-19 20:22:56.027 +0800	INFO	org.apache.juli.logging.DirectJDKLog	173	main	Initializing Spring embedded WebApplicationContext
-2020-02-19 20:22:56.027 +0800	INFO	org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext	296	main	Root WebApplicationContext: initialization completed in 1269 ms
-2020-02-19 20:22:56.571 +0800	INFO	org.springframework.scheduling.concurrent.ExecutorConfigurationSupport	171	main	Initializing ExecutorService 'applicationTaskExecutor'
-2020-02-19 20:22:56.859 +0800	INFO	org.apache.juli.logging.DirectJDKLog	173	main	Starting ProtocolHandler ["http-nio-8888"]
-2020-02-19 20:22:56.885 +0800	INFO	org.springframework.boot.web.embedded.tomcat.TomcatWebServer	204	main	Tomcat started on port(s): 8888 (http) with context path ''
-2020-02-19 20:22:56.888 +0800	INFO	org.springframework.boot.StartupInfoLogger	59	main	Started AopdemoApplication in 2.816 seconds (JVM running for 4.165)
-2020-02-19 20:23:04.332 +0800	INFO	com.example.demo.listenerfilterintercept.CustomLister	27	http-nio-8888-exec-1	request级别监听器,访问次数+1,当前访问量:1
-2020-02-19 20:23:04.339 +0800	INFO	org.apache.juli.logging.DirectJDKLog	173	http-nio-8888-exec-1	Initializing Spring DispatcherServlet 'dispatcherServlet'
-2020-02-19 20:23:04.339 +0800	INFO	org.springframework.web.servlet.FrameworkServlet	524	http-nio-8888-exec-1	Initializing Servlet 'dispatcherServlet'
-2020-02-19 20:23:04.351 +0800	INFO	org.springframework.web.servlet.FrameworkServlet	546	http-nio-8888-exec-1	Completed initialization in 12 ms
-2020-02-19 20:23:04.367 +0800	INFO	com.example.demo.listenerfilterintercept.CustomIntercept	19	http-nio-8888-exec-1	PostmanRuntime/7.22.0
-2020-02-19 20:23:04.375 +0800	INFO	com.example.demo.eventlisteners.Listener	13	http-nio-8888-exec-1	com.example.demo.eventlisteners.Listener监听到事件源：测试邮件发送.
-2020-02-19 20:23:04.435 +0800	INFO	com.example.demo.listenerfilterintercept.CustomIntercept	28	http-nio-8888-exec-1	??
-2020-02-19 20:23:04.436 +0800	INFO	com.example.demo.listenerfilterintercept.CustomIntercept	32	http-nio-8888-exec-1	???
-2020-02-19 20:23:04.438 +0800	INFO	com.example.demo.listenerfilterintercept.CustomLister	18	http-nio-8888-exec-1	request级别监听器：销毁
-2020-02-19 20:23:15.849 +0800	INFO	org.springframework.scheduling.concurrent.ExecutorConfigurationSupport	208	Thread-2	Shutting down ExecutorService 'applicationTaskExecutor'
+2020-02-20 20:09:17.724 +0800	INFO	org.springframework.boot.StartupInfoLogger	50	main	Starting AopdemoApplication on DESKTOP-EPLMR17 with PID 19024 (started by 屈冠文 in C:\Users\屈冠文\IdeaProjects\format\aopdemo)
+2020-02-20 20:09:17.739 +0800	DEBUG	org.springframework.boot.StartupInfoLogger	53	main	Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2020-02-20 20:09:17.739 +0800	INFO	org.springframework.boot.SpringApplication	675	main	No active profile set, falling back to default profiles: default
+2020-02-20 20:09:18.482 +0800	INFO	org.springframework.data.repository.config.RepositoryConfigurationDelegate	244	main	Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-02-20 20:09:18.490 +0800	INFO	org.springframework.data.repository.config.RepositoryConfigurationDelegate	126	main	Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-02-20 20:09:18.571 +0800	INFO	org.springframework.data.repository.config.RepositoryConfigurationDelegate	182	main	Finished Spring Data repository scanning in 37ms. Found 0 repository interfaces.
+2020-02-20 20:09:18.911 +0800	INFO	org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker	330	main	Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$e7f41229] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-20 20:09:19.367 +0800	INFO	org.springframework.boot.web.embedded.tomcat.TomcatWebServer	90	main	Tomcat initialized with port(s): 8888 (http)
+2020-02-20 20:09:19.378 +0800	INFO	org.apache.juli.logging.DirectJDKLog	173	main	Initializing ProtocolHandler ["http-nio-8888"]
+2020-02-20 20:09:19.387 +0800	INFO	org.apache.juli.logging.DirectJDKLog	173	main	Starting service [Tomcat]
+2020-02-20 20:09:19.388 +0800	INFO	org.apache.juli.logging.DirectJDKLog	173	main	Starting Servlet engine: [Apache Tomcat/9.0.17]
+2020-02-20 20:09:19.492 +0800	INFO	org.apache.juli.logging.DirectJDKLog	173	main	Initializing Spring embedded WebApplicationContext
+2020-02-20 20:09:19.492 +0800	INFO	org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext	296	main	Root WebApplicationContext: initialization completed in 1717 ms
+2020-02-20 20:09:20.126 +0800	INFO	org.springframework.scheduling.concurrent.ExecutorConfigurationSupport	171	main	Initializing ExecutorService 'taskExecutor'
+2020-02-20 20:09:20.990 +0800	INFO	org.apache.juli.logging.DirectJDKLog	173	main	Starting ProtocolHandler ["http-nio-8888"]
+2020-02-20 20:09:21.014 +0800	INFO	org.springframework.boot.web.embedded.tomcat.TomcatWebServer	204	main	Tomcat started on port(s): 8888 (http) with context path ''
+2020-02-20 20:09:21.017 +0800	INFO	org.springframework.boot.StartupInfoLogger	59	main	Started AopdemoApplication in 3.941 seconds (JVM running for 5.649)
+2020-02-20 20:09:37.863 +0800	INFO	com.example.demo.listenerfilterintercept.CustomLister	27	http-nio-8888-exec-1	request级别监听器,访问次数+1,当前访问量:1
+2020-02-20 20:09:37.870 +0800	INFO	org.apache.juli.logging.DirectJDKLog	173	http-nio-8888-exec-1	Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-02-20 20:09:37.871 +0800	INFO	org.springframework.web.servlet.FrameworkServlet	524	http-nio-8888-exec-1	Initializing Servlet 'dispatcherServlet'
+2020-02-20 20:09:37.890 +0800	INFO	org.springframework.web.servlet.FrameworkServlet	546	http-nio-8888-exec-1	Completed initialization in 19 ms
+2020-02-20 20:09:37.905 +0800	INFO	com.example.demo.listenerfilterintercept.CustomIntercept	19	http-nio-8888-exec-1	PostmanRuntime/7.22.0
+2020-02-20 20:09:38.017 +0800	INFO	io.lettuce.core.EpollProvider	68	http-nio-8888-exec-1	Starting without optional epoll library
+2020-02-20 20:09:38.019 +0800	INFO	io.lettuce.core.KqueueProvider	70	http-nio-8888-exec-1	Starting without optional kqueue library
+2020-02-20 20:09:38.543 +0800	INFO	com.zaxxer.hikari.HikariDataSource	110	http-nio-8888-exec-1	HikariPool-1 - Starting...
+2020-02-20 20:09:38.637 +0800	INFO	com.zaxxer.hikari.HikariDataSource	123	http-nio-8888-exec-1	HikariPool-1 - Start completed.
+2020-02-20 20:09:38.642 +0800	DEBUG	org.apache.ibatis.logging.jdbc.BaseJdbcLogger	159	http-nio-8888-exec-1	==>  Preparing: select t_id, t_name from teacher 
+2020-02-20 20:09:38.662 +0800	DEBUG	org.apache.ibatis.logging.jdbc.BaseJdbcLogger	159	http-nio-8888-exec-1	==> Parameters: 
+2020-02-20 20:09:38.682 +0800	DEBUG	org.apache.ibatis.logging.jdbc.BaseJdbcLogger	159	http-nio-8888-exec-1	<==      Total: 6
+2020-02-20 20:09:38.802 +0800	INFO	com.example.demo.listenerfilterintercept.CustomIntercept	28	http-nio-8888-exec-1	??
+2020-02-20 20:09:38.807 +0800	INFO	com.example.demo.listenerfilterintercept.CustomIntercept	32	http-nio-8888-exec-1	???
+2020-02-20 20:09:38.808 +0800	INFO	com.example.demo.listenerfilterintercept.CustomLister	18	http-nio-8888-exec-1	request级别监听器：销毁
+2020-02-20 20:09:41.975 +0800	INFO	com.example.demo.listenerfilterintercept.CustomLister	27	http-nio-8888-exec-2	request级别监听器,访问次数+1,当前访问量:2
+2020-02-20 20:09:41.976 +0800	INFO	com.example.demo.listenerfilterintercept.CustomIntercept	19	http-nio-8888-exec-2	PostmanRuntime/7.22.0
+2020-02-20 20:09:42.020 +0800	INFO	com.example.demo.listenerfilterintercept.CustomIntercept	28	http-nio-8888-exec-2	??
+2020-02-20 20:09:42.021 +0800	INFO	com.example.demo.listenerfilterintercept.CustomIntercept	32	http-nio-8888-exec-2	???
+2020-02-20 20:09:42.021 +0800	INFO	com.example.demo.listenerfilterintercept.CustomLister	18	http-nio-8888-exec-2	request级别监听器：销毁
+2020-02-20 20:09:42.711 +0800	INFO	com.example.demo.listenerfilterintercept.CustomLister	27	http-nio-8888-exec-3	request级别监听器,访问次数+1,当前访问量:3
+2020-02-20 20:09:42.712 +0800	INFO	com.example.demo.listenerfilterintercept.CustomIntercept	19	http-nio-8888-exec-3	PostmanRuntime/7.22.0
+2020-02-20 20:09:42.717 +0800	INFO	com.example.demo.listenerfilterintercept.CustomIntercept	28	http-nio-8888-exec-3	??
+2020-02-20 20:09:42.718 +0800	INFO	com.example.demo.listenerfilterintercept.CustomIntercept	32	http-nio-8888-exec-3	???
+2020-02-20 20:09:42.719 +0800	INFO	com.example.demo.listenerfilterintercept.CustomLister	18	http-nio-8888-exec-3	request级别监听器：销毁
+2020-02-20 20:11:22.156 +0800	INFO	com.example.demo.listenerfilterintercept.CustomLister	27	http-nio-8888-exec-5	request级别监听器,访问次数+1,当前访问量:4
+2020-02-20 20:11:22.156 +0800	INFO	com.example.demo.listenerfilterintercept.CustomIntercept	19	http-nio-8888-exec-5	PostmanRuntime/7.22.0
+2020-02-20 20:11:22.160 +0800	DEBUG	org.apache.ibatis.logging.jdbc.BaseJdbcLogger	159	http-nio-8888-exec-5	==>  Preparing: select t_id, t_name from teacher 
+2020-02-20 20:11:22.160 +0800	DEBUG	org.apache.ibatis.logging.jdbc.BaseJdbcLogger	159	http-nio-8888-exec-5	==> Parameters: 
+2020-02-20 20:11:22.163 +0800	DEBUG	org.apache.ibatis.logging.jdbc.BaseJdbcLogger	159	http-nio-8888-exec-5	<==      Total: 6
+2020-02-20 20:11:22.167 +0800	INFO	com.example.demo.listenerfilterintercept.CustomIntercept	28	http-nio-8888-exec-5	??
+2020-02-20 20:11:22.167 +0800	INFO	com.example.demo.listenerfilterintercept.CustomIntercept	32	http-nio-8888-exec-5	???
+2020-02-20 20:11:22.167 +0800	INFO	com.example.demo.listenerfilterintercept.CustomLister	18	http-nio-8888-exec-5	request级别监听器：销毁
+2020-02-20 20:11:38.776 +0800	INFO	com.example.demo.listenerfilterintercept.CustomLister	27	http-nio-8888-exec-6	request级别监听器,访问次数+1,当前访问量:5
+2020-02-20 20:11:38.778 +0800	INFO	com.example.demo.listenerfilterintercept.CustomIntercept	19	http-nio-8888-exec-6	PostmanRuntime/7.22.0
+2020-02-20 20:11:38.805 +0800	DEBUG	org.apache.ibatis.logging.jdbc.BaseJdbcLogger	159	http-nio-8888-exec-6	==>  Preparing: select t_id, t_name from teacher where t_id = ? 
+2020-02-20 20:11:38.806 +0800	DEBUG	org.apache.ibatis.logging.jdbc.BaseJdbcLogger	159	http-nio-8888-exec-6	==> Parameters: 1(Integer)
+2020-02-20 20:11:38.807 +0800	DEBUG	org.apache.ibatis.logging.jdbc.BaseJdbcLogger	159	http-nio-8888-exec-6	<==      Total: 1
+2020-02-20 20:11:38.810 +0800	INFO	com.example.demo.listenerfilterintercept.CustomIntercept	28	http-nio-8888-exec-6	??
+2020-02-20 20:11:38.810 +0800	INFO	com.example.demo.listenerfilterintercept.CustomIntercept	32	http-nio-8888-exec-6	???
+2020-02-20 20:11:38.811 +0800	INFO	com.example.demo.listenerfilterintercept.CustomLister	18	http-nio-8888-exec-6	request级别监听器：销毁
+2020-02-20 20:11:41.433 +0800	INFO	com.example.demo.listenerfilterintercept.CustomLister	27	http-nio-8888-exec-7	request级别监听器,访问次数+1,当前访问量:6
+2020-02-20 20:11:41.434 +0800	INFO	com.example.demo.listenerfilterintercept.CustomIntercept	19	http-nio-8888-exec-7	PostmanRuntime/7.22.0
+2020-02-20 20:11:41.440 +0800	DEBUG	org.apache.ibatis.logging.jdbc.BaseJdbcLogger	159	http-nio-8888-exec-7	==>  Preparing: select t_id, t_name from teacher where t_id = ? 
+2020-02-20 20:11:41.440 +0800	DEBUG	org.apache.ibatis.logging.jdbc.BaseJdbcLogger	159	http-nio-8888-exec-7	==> Parameters: 2(Integer)
+2020-02-20 20:11:41.443 +0800	DEBUG	org.apache.ibatis.logging.jdbc.BaseJdbcLogger	159	http-nio-8888-exec-7	<==      Total: 1
+2020-02-20 20:11:41.452 +0800	INFO	com.example.demo.listenerfilterintercept.CustomIntercept	28	http-nio-8888-exec-7	??
+2020-02-20 20:11:41.452 +0800	INFO	com.example.demo.listenerfilterintercept.CustomIntercept	32	http-nio-8888-exec-7	???
+2020-02-20 20:11:41.453 +0800	INFO	com.example.demo.listenerfilterintercept.CustomLister	18	http-nio-8888-exec-7	request级别监听器：销毁
+2020-02-20 20:11:42.310 +0800	INFO	com.example.demo.listenerfilterintercept.CustomLister	27	http-nio-8888-exec-8	request级别监听器,访问次数+1,当前访问量:7
+2020-02-20 20:11:42.311 +0800	INFO	com.example.demo.listenerfilterintercept.CustomIntercept	19	http-nio-8888-exec-8	PostmanRuntime/7.22.0
+2020-02-20 20:11:42.314 +0800	INFO	com.example.demo.listenerfilterintercept.CustomIntercept	28	http-nio-8888-exec-8	??
+2020-02-20 20:11:42.314 +0800	INFO	com.example.demo.listenerfilterintercept.CustomIntercept	32	http-nio-8888-exec-8	???
+2020-02-20 20:11:42.314 +0800	INFO	com.example.demo.listenerfilterintercept.CustomLister	18	http-nio-8888-exec-8	request级别监听器：销毁
+2020-02-20 20:11:44.772 +0800	INFO	com.example.demo.listenerfilterintercept.CustomLister	27	http-nio-8888-exec-9	request级别监听器,访问次数+1,当前访问量:8
+2020-02-20 20:11:44.772 +0800	INFO	com.example.demo.listenerfilterintercept.CustomIntercept	19	http-nio-8888-exec-9	PostmanRuntime/7.22.0
+2020-02-20 20:11:44.776 +0800	INFO	com.example.demo.listenerfilterintercept.CustomIntercept	28	http-nio-8888-exec-9	??
+2020-02-20 20:11:44.776 +0800	INFO	com.example.demo.listenerfilterintercept.CustomIntercept	32	http-nio-8888-exec-9	???
+2020-02-20 20:11:44.777 +0800	INFO	com.example.demo.listenerfilterintercept.CustomLister	18	http-nio-8888-exec-9	request级别监听器：销毁
+2020-02-20 20:12:03.334 +0800	INFO	com.example.demo.listenerfilterintercept.CustomLister	27	http-nio-8888-exec-10	request级别监听器,访问次数+1,当前访问量:9
+2020-02-20 20:12:03.335 +0800	INFO	com.example.demo.listenerfilterintercept.CustomIntercept	19	http-nio-8888-exec-10	PostmanRuntime/7.22.0
+2020-02-20 20:12:03.355 +0800	DEBUG	org.apache.ibatis.logging.jdbc.BaseJdbcLogger	159	http-nio-8888-exec-10	==>  Preparing: insert into teacher (t_name) values (?) 
+2020-02-20 20:12:03.356 +0800	DEBUG	org.apache.ibatis.logging.jdbc.BaseJdbcLogger	159	http-nio-8888-exec-10	==> Parameters: 牛老师(String)
+2020-02-20 20:12:03.362 +0800	DEBUG	org.apache.ibatis.logging.jdbc.BaseJdbcLogger	159	http-nio-8888-exec-10	<==    Updates: 1
+2020-02-20 20:12:03.381 +0800	INFO	com.example.demo.listenerfilterintercept.CustomIntercept	28	http-nio-8888-exec-10	??
+2020-02-20 20:12:03.381 +0800	INFO	com.example.demo.listenerfilterintercept.CustomIntercept	32	http-nio-8888-exec-10	???
+2020-02-20 20:12:03.381 +0800	INFO	com.example.demo.listenerfilterintercept.CustomLister	18	http-nio-8888-exec-10	request级别监听器：销毁

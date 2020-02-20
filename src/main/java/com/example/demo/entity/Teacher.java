@@ -10,6 +10,7 @@ import java.io.Serializable;
  */
 @Data
 public class Teacher implements Serializable {
+
     private Integer tId;
 
     private String tName;
